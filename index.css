@@ -446,9 +446,6 @@ padding: 12px 24px;
     background: transparent !important;
 }
 
-.vc_row.wpb_row.vc_row-fluid.form-step .title-wrapper .title.woodmart-title-container{
-    color: #FFFFFF !important;
-}
 
 .vc_row.wpb_row.vc_row-fluid.form-step .title-wrapper .title-after_title, .vc_row.wpb_row.vc_row-fluid.form-step p{
     font-weight: 400;
@@ -456,21 +453,72 @@ padding: 12px 24px;
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0%;
-    color: #F1F2F6;
 }
 
-.vc_row.wpb_row.vc_row-fluid.form-step div.wpforms-container-full {
+.form-step .wpb_wrapper .wpb_column:last-child .wpb_wrapper {
     background: #F1F2F6;
     padding: 32px;
     border-radius: 4px;
     min-height: 410px;
-    max-width: 560px;
+    max-width: 640px;
+    width: 100%;
     margin-right: 0;
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin-left: auto;
 }
 
+.form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #122B92;
+    background-color: #FFFFFF;
+}
+
+.form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern:hover, .form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern:focus {
+    color: #122B92;
+    background-color: #FFFFFF;
+}
+
+.form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-color-grey.vc_btn3-style-outline {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-color-grey.vc_btn3-style-outline:hover, .form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-color-grey.vc_btn3-style-outline:focus {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-size-md.vc_btn3-icon-left:not(.vc_btn3-o-empty) {
+    padding-left: 52px;
+}
+
+.form-step .wpb_wrapper .wpb_column:first-child .wpb_wrapper .vc_btn3.vc_btn3-size-md .vc_btn3-icon {
+    font-size: 20px;
+}
+
+.form-step .wpb_wrapper .wpb_column:last-child .wpb_wrapper div.wpforms-container-full {
+    margin: 0;
+}
 
 .vc_row.wpb_row.vc_row-fluid.form-step div.wpforms-container-full > form{
     flex: 1;
